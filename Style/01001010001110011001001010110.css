@@ -1,0 +1,73 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    margin: 0;
+    padding: 0;
+}
+.judulartikel {
+    background-color: rgb(197, 255, 109);
+    padding: 3px;
+}
+body{
+    background-color: antiquewhite;
+}
+.judulutama{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    color: rgb(204, 119, 88);
+    border-bottom: 2px solid ;
+}
+.preview2{
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    background-color: rgb(188, 212, 142);
+}
+.artikelnum1 {
+    max-width: 300px;
+    border: 2px solid;
+    padding: 6px;
+    background-color: rgb(212, 212, 212);
+    margin: 7px;
+
+}
+.artikelnum2 {
+    max-width: 300px;
+    border: 2px solid;
+    padding: 6px;
+    margin: 7px;
+    background-color: rgb(212, 212, 212);
+}
+.teksberjalan {
+    background-color: rgb(133, 133, 133);
+    border-top: 4px solid black;
+    padding: 10px;
+}
+marquee {
+    font-weight: 500;
+}
+.ISICERITA {
+    padding: 2px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    
+}
+p {
+    display: flex;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 425px){
+    .preview2{
+        margin: 10px;
+        padding: 2px;
+        display: flex;
+        justify-content: left;
+        border: 2px solid black;
+        flex-wrap: wrap;
+        background-color: rgb(188, 212, 142);
+    } 
+}
